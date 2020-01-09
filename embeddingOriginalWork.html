@@ -8,7 +8,7 @@
     <body>
         <h2>Level 1</h2>
         <p>1. The most viewed video on youtube (according to wikipedia)</p>
-        <iframe width="700" height="394" src="https://www.youtube.com/embed/kJQP7kiw5Fk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kJQP7kiw5Fk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p>2. Google Maps</p>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2687.497287015648!2d-122.30570858487005!3d47.655335079187935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549014929d8535eb%3A0x6b742c7901b82ba3!2sUniversity%20of%20Washington!5e0!3m2!1sen!2sus!4v1578524306581!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         <p>3. Embedding a link</p>
@@ -22,9 +22,29 @@
         <video width="320" height="240" controls>
             <source src="short_clip.mp4" type="video/mp4">
         </video>
-        <p>3. Using the object tag</p>
-        <object width="100" height="100" data="cell structure.swf"></object>
+        <p>3. Using the object tag (page1.html)
+            <br> There's a puppy at the bottom :o
+        </p>
+        <object width="300" height="300" data="https://jchen99-1574230.github.io/page1.html"></object>
         <h2>Level 3</h2>
-
+        <p>1. Despacito starting at 3:00, begins autoplaying on page load and loops at the end</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kJQP7kiw5Fk?start=180?autoplay=1&loop=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>2. Let it snow mp3 file, followed by the video again (smaller).
+            There's a icon on the right side of the video for controls.
+        </p>
+        <audio controls>
+            <source src="Let_It_Snow.mp3" type="audio/mp3">
+        </audio>
+        <video width="100" height="100" controls>
+            <source src="short_clip.mp4" type="video/mp4">
+        </video>
+        <p>3. Another website embedded using object tag (index.html)</p>
+        <object width="150" height="150" data="https://jchen99-1574230.github.io/index.html"></object>
+        <p>4. RSS</p>
+        <?xml version="1.0" encoding="UTF-8" ?>
+        <rss version="2.0">
+            <channel>
+            </channel>    
+        </rss>
     </body>
 </html>
