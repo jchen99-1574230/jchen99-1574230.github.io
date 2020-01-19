@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Starting CSS</title>
+        <style>
+            body {
+                background-color: lightcyan;
+            }
+            p.a {
+                font: 15px "Times New Roman";
+            }
+            p.b {
+                font: 15px Monospace;
+            }
+            .grid-container {
+                display: grid;
+                grid: 50px / auto auto auto;
+                grid-gap: 10px;
+                background-color: #2196F3;
+                padding: 10px;
+            }
+            .grid-container > div {
+                background-color: rgba(255, 255, 255, 0.8);
+                text-align: center;
+                padding: 10px 0;
+                font-size: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2> Level 1: Newbie </h2>
+        <h3>1. Two paragraphs that each have a different font.</h3>
+        <p class="a">This is paragraph a. Font size 15 pixels, font Times New Roman.</p>
+        <p class="b">This is paragraph b. Font size 15 pixels, font Monospace.</p>
+
+        <h3>2. Two pictures that were originally different sizes, resized to 50px by 50px.</h3>
+        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" alt="Tree & Sunset" height="50" width="50">
+        <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Nighttime Lake" height="50" width="50">
+
+        <h3>3. One more unique CSS command that was not discussed in the workshop: a 1x3 grid</h3>
+        <div class="grid-container">
+            <div class="item1">1</div>
+            <div class="item2">2</div>
+            <div class="item3">3</div>
+        </div>
+    </body>
+</html>
