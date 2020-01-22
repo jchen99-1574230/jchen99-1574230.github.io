@@ -55,8 +55,8 @@ a {
 #LeftNav {
     float: left;
     width: 400px;
-    border: solid 8px black;
-    border-style: dotted;
+    border: solid 8px white;
+    border-style: groove;
     margin: 10px;
     text-align: center;
     padding-bottom: 8px;
