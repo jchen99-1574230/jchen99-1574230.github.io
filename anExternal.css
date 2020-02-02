@@ -1,0 +1,57 @@
+.level1 {
+    width: 50px;
+    height: 50px;
+}
+
+body {
+    background-color: lightcyan;
+}
+p.a {
+    font: 15px "Times New Roman";
+}
+p.b {
+    font: 15px Monospace;
+}
+.grid-container {
+    display: grid;
+    grid: 25px / auto auto auto;
+    grid-gap: 3px;
+    background-color: lightsteelblue;
+    padding: 3px;
+}
+.grid-container > div {
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 10px;
+}
+
+.image {
+    position: relative;
+    text-align: center;
+    margin: 20px;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: large;
+    border-style: dotted;
+}
+
+.floated_image {
+    float: right;
+    height: auto;
+    border-radius: 25px;
+    width: 125px;
+    height: 145px;
+    padding: 20px;
+    background-color: purple;
+
+}
+
+#apple {
+    height: 150px;
+}

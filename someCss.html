@@ -2,30 +2,7 @@
 <html>
     <head>
         <title>Starting CSS</title>
-        <style>
-            body {
-                background-color: lightcyan;
-            }
-            p.a {
-                font: 15px "Times New Roman";
-            }
-            p.b {
-                font: 15px Monospace;
-            }
-            .grid-container {
-                display: grid;
-                grid: 25px / auto auto auto;
-                grid-gap: 3px;
-                background-color: lightsteelblue;
-                padding: 3px;
-            }
-            .grid-container > div {
-                background-color: lightgoldenrodyellow;
-                text-align: center;
-                padding: 10px 0;
-                font-size: 10px;
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="anExternal.css">
     </head>
     <body>
         <h2> Level 1: Newbie </h2>
@@ -34,14 +11,30 @@
         <p class="b">This is paragraph b. Font size 15 pixels, font Monospace.</p>
 
         <h3>2. Two pictures that were originally different sizes, resized to 50px by 50px.</h3>
-        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" alt="Tree & Sunset" height="50" width="50">
-        <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Nighttime Lake" height="50" width="50">
+        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" alt="Tree & Sunset" class="level1">
+        <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Nighttime Lake" class="level1">
 
         <h3>3. One more unique CSS command that was not discussed in the workshop: a 1x3 grid</h3>
         <div class="grid-container">
             <div class="item1">1</div>
             <div class="item2">2</div>
             <div class="item3">3</div>
+        </div>
+
+        <h2> Level 2: Apprentice </h2>
+        <h3> Dotted border lined text centered on photo with 20px margins</h3>
+        
+        <div class="image">
+            <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/baby-yoda-1575430588.jpeg"/>
+            <div class="text">
+                <p>||         Hi!        ||</p>
+            </div>
+        </div>
+        
+        <h2> Level 3: Master </h2>
+        <h3> (right) floated element on rounded purple background </h3>
+        <div class="floated_image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk5yBIO-YVa7eRfKR63aPKOTc6ijiltScOTD0RP_JlJ3Lx2kj9&s" id="apple"/>
         </div>
     </body>
 </html>
